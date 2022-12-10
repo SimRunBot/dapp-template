@@ -24,3 +24,13 @@ a {
     background: black;
   }
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @font-face {
+  font-family: "Lato-Regular";
+  src: local("Lato-Regular"),
+    url("../public/fonts/Lato-Regular.ttf") format("truetype");
+} */
