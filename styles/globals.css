@@ -1,36 +1,14 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-}
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* @font-face {
-  font-family: "Lato-Regular";
-  src: local("Lato-Regular"),
-    url("../public/fonts/Lato-Regular.ttf") format("truetype");
-} */
+@font-face {
+  font-family: "FelixTitling";
+  src: local("FelixTitling"),
+    url("../public/fonts/FelixTitling.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Exo-Regular";
+  src: local("Exo-Regular"),
+    url("../public/fonts/Exo-Regular.ttf") format("truetype");
+}
